@@ -120,3 +120,5 @@ app.get('/getData', async (req, res) => {
 app.listen(6000, () => {
   console.log("Server is Started");
 });
+
+//populate query used to store the reference of one document in other document.
